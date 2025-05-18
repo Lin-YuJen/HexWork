@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px
+}
+
+.cards-list .card {
+    max-width: 416px;
+}
+
+.cards-list .card img {
+    width: 100%;
+    /*height: 200px;*/
+    margin-bottom: 16px;
+}
+
+.cards-list .card .date {
+    font-size: 16px;
+    font-family: Noto Sans TC;
+    margin-bottom: 4px;
+}
+
+.cards-list .card .tags {
+    font-size: 24px;
+    font-family: Noto Sans TC;
+    color: #0027D5;
+}
+
+.cards-list .card .title {
+    font-size: 28px;
+    font-family: Noto Sans TC;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.cards-list .card .description {
+    font-size: 16px;
+}
+
+.cards-list .card .button {
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+    border: 1px solid #000000;
+    margin-top: 16px;
+    padding: 8px 16px 8px 16px;
+}
